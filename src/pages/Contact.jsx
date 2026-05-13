@@ -1,8 +1,8 @@
 const Contact = () => (
   <main>
-    <div className="container" id="contact">
+    <div className="container">
       <form
-        id="contact"
+        id="contact-form"
         onSubmit={(event) => event.preventDefault()}
       >
         <h3>Quick Contact</h3>

@@ -25,9 +25,13 @@ body {
 	margin: 0 auto;
 	position: relative;
 	padding: 60px 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 80vh;
 }
 
-#contact {
+#contact-form {
 	background: rgba(26, 31, 58, 0.8);
 	backdrop-filter: blur(10px);
 	padding: 40px;
@@ -37,7 +41,7 @@ body {
 	box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
 }
 
-#contact h3 {
+#contact-form h3 {
 	color: white;
 	display: block;
 	font-size: 36px;
@@ -46,7 +50,7 @@ body {
 	letter-spacing: -1px;
 }
 
-#contact h4 {
+#contact-form h4 {
 	color: #f9004d;
 	margin: 5px 0 25px;
 	display: block;
@@ -64,11 +68,11 @@ fieldset {
 	width: 100%;
 }
 
-#contact input[type="text"], 
-#contact input[type="email"], 
-#contact input[type="tel"], 
-#contact input[type="url"], 
-#contact textarea {
+#contact-form input[type="text"], 
+#contact-form input[type="email"], 
+#contact-form input[type="tel"], 
+#contact-form input[type="url"], 
+#contact-form textarea {
 	width: 100%;
 	border: 2px solid rgba(249, 0, 77, 0.3);
 	background: rgba(255, 255, 255, 0.05);
@@ -81,19 +85,19 @@ fieldset {
 	transition: all 0.3s ease;
 }
 
-#contact input[type="text"]::placeholder, 
-#contact input[type="email"]::placeholder, 
-#contact input[type="tel"]::placeholder, 
-#contact input[type="url"]::placeholder, 
-#contact textarea::placeholder {
+#contact-form input[type="text"]::placeholder, 
+#contact-form input[type="email"]::placeholder, 
+#contact-form input[type="tel"]::placeholder, 
+#contact-form input[type="url"]::placeholder, 
+#contact-form textarea::placeholder {
 	color: rgba(255, 255, 255, 0.5);
 }
 
-#contact input[type="text"]:hover, 
-#contact input[type="email"]:hover, 
-#contact input[type="tel"]:hover, 
-#contact input[type="url"]:hover, 
-#contact textarea:hover {
+#contact-form input[type="text"]:hover, 
+#contact-form input[type="email"]:hover, 
+#contact-form input[type="tel"]:hover, 
+#contact-form input[type="url"]:hover, 
+#contact-form textarea:hover {
 	border-color: rgba(249, 0, 77, 0.5);
 	background: rgba(255, 255, 255, 0.1);
 }

@@ -3,24 +3,29 @@ const Contact = () => (
     <div className="container">
       <form
         id="contact-form"
-        onSubmit={(event) => event.preventDefault()}
+        action="https://formsubmit.co/nikhilkumar4714@gmail.com"
+        method="POST"
       >
         <h3>Quick Contact</h3>
         <h4>Contact us today, and get reply with in 24 hours!</h4>
+        <input type="hidden" name="_subject" value="New portfolio contact request" />
+        <input type="hidden" name="_template" value="table" />
+        <input type="hidden" name="_captcha" value="false" />
+        <input type="text" name="_honey" style={{ display: 'none' }} tabIndex="-1" autoComplete="off" />
         <fieldset>
-          <input placeholder="First Name" type="text" tabIndex="1" required autoFocus />
+          <input name="First Name" placeholder="First Name" type="text" tabIndex="1" required autoFocus />
         </fieldset>
         <fieldset>
-          <input placeholder="Last Name" type="email" tabIndex="2" required />
+          <input name="Last Name" placeholder="Last Name" type="text" tabIndex="2" required />
         </fieldset>
         <fieldset>
-          <input placeholder="Your Email Address" type="tel" tabIndex="3" required />
+          <input name="Email Address" placeholder="Your Email Address" type="email" tabIndex="3" required />
         </fieldset>
         <fieldset>
-          <input placeholder="Your Phone Number" type="url" tabIndex="4" required />
+          <input name="Phone Number" placeholder="Your Phone Number" type="tel" tabIndex="4" required />
         </fieldset>
         <fieldset>
-          <textarea placeholder="Type your Message Here...." tabIndex="5" required />
+          <textarea name="Message" placeholder="Type your Message Here...." tabIndex="5" required />
         </fieldset>
         <fieldset>
           <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>

@@ -1,5 +1,5 @@
 const Academics = () => {
-  const portrait = new URL('../../dslr nk.jpg', import.meta.url).href;
+  const portrait = new URL('../../backgroundphoto.jpeg', import.meta.url).href;
 
   return (
     <main>
@@ -48,8 +48,8 @@ const Academics = () => {
               5) Management
             </p>
             <p>
-              For more information stay connected on <a href="https://www.linkedin.com/in/nikhilkumar11909850/">LinkedIn</a>
-              and <a href="https://github.com/Nikhilsoul">GitHub</a>.
+              For more information stay connected on <a href="https://www.linkedin.com/in/nikhilkumar11909850/"> LinkedIn</a>
+              and <a href="https://github.com/Nikhilsoul"> GitHub</a>.
             </p>
             <button type="button">Thank you</button>
           </div>

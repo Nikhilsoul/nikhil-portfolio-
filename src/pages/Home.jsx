@@ -1,5 +1,5 @@
 const Home = () => {
-  const portrait = new URL('../../dslr nk.jpg', import.meta.url).href;
+  const portrait = new URL('../../backgroundphoto.jpeg', import.meta.url).href;
 
   return (
     <main>

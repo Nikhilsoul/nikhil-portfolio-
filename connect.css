@@ -102,24 +102,24 @@ fieldset {
 	background: rgba(255, 255, 255, 0.1);
 }
 
-#contact input[type="text"]:focus, 
-#contact input[type="email"]:focus, 
-#contact input[type="tel"]:focus, 
-#contact input[type="url"]:focus, 
-#contact textarea:focus {
+#contact-form input[type="text"]:focus, 
+#contact-form input[type="email"]:focus, 
+#contact-form input[type="tel"]:focus, 
+#contact-form input[type="url"]:focus, 
+#contact-form textarea:focus {
 	outline: none;
 	border-color: #f9004d;
 	background: rgba(255, 255, 255, 0.15);
 	box-shadow: 0 0 20px rgba(249, 0, 77, 0.2);
 }
 
-#contact textarea {
+#contact-form textarea {
 	height: 140px;
 	max-width: 100%;
 	resize: vertical;
 }
 
-#contact button[type="submit"] {
+#contact-form button[type="submit"] {
 	cursor: pointer;
 	width: 100%;
 	border: none;
@@ -135,12 +135,12 @@ fieldset {
 	letter-spacing: 1px;
 }
 
-#contact button[type="submit"]:hover {
+#contact-form button[type="submit"]:hover {
 	transform: translateY(-2px);
 	box-shadow: 0 15px 40px rgba(249, 0, 77, 0.3);
 }
 
-#contact button[type="submit"]:active {
+#contact-form button[type="submit"]:active {
 	transform: translateY(0);
 	box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.3);
 }
